@@ -1,22 +1,22 @@
 import React, { Component } from "react";
-import GoogleMapReact from "google-map-react";
-import { Key } from "../../key.js"; // .gitignore
-import styled from "styled-components";
-import { theme } from "../../constants/theme";
+// import GoogleMapReact from "google-map-react";
+// import { Key } from "../../key.js"; // .gitignore
+// import styled from "styled-components";
+// import { theme } from "../../constants/theme";
 
 // const AnyReactComponent = ({ text }) => <div>{text}</div>;
-const AnyReactComponent = ({ text }) => (
-  <AnyReactComponentStyle>{text}</AnyReactComponentStyle>
-);
+// const AnyReactComponent = ({ text }) => (
+//   <AnyReactComponentStyle>{text}</AnyReactComponentStyle>
+// );
 
-const AnyReactComponentStyle = styled.div`
-  font-size: 20px;
-  border-radius: 4px;
-  background-color: rgba(110, 112, 255, 0.2);
-  border: 1px solid ${theme.colors.mainPrimary};
-  padding: 12px;
-  writing-mode: vertical-lr;
-`;
+// const AnyReactComponentStyle = styled.div`
+//   font-size: 20px;
+//   border-radius: 4px;
+//   background-color: rgba(110, 112, 255, 0.2);
+//   border: 1px solid ${theme.colors.mainPrimary};
+//   padding: 12px;
+//   writing-mode: vertical-lr;
+// `;
 
 // Map
 class SimpleMap extends Component {
@@ -32,7 +32,7 @@ class SimpleMap extends Component {
     return (
       // Important! Always set the container height explicitly height-ori: "100vh"
       <div style={{ height: "500px", width: "100%" }}>
-        <GoogleMapReact
+        {/* <GoogleMapReact
           bootstrapURLKeys={{ key: Key }} // YOUR KEY HERE
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
@@ -42,7 +42,7 @@ class SimpleMap extends Component {
             lng={121.5097607} // 30.337844
             text="甜の呼吸"
           />
-        </GoogleMapReact>
+        </GoogleMapReact> */}
       </div>
     );
   }
