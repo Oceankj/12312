@@ -1,6 +1,6 @@
 # Sweet Breath 甜の呼吸 - 網路甜點工作室
 
-[網站 DEMO](https://corekang.github.io/sweetbreath/#/)
+[網站 DEMO](https://oceankj.github.io/sweatbreath)
 
 | 測試用身份 | 帳號 | 密碼 |
 | --- | --- | -------- |
